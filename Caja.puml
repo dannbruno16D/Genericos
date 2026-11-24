@@ -1,0 +1,7 @@
+@startuml Caja
+class "Caja<T>" {
+    - contenido: T
+    + guardar(contenido: T): void
+    + obtener(): T
+}
+@enduml

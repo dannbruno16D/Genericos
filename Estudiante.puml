@@ -1,0 +1,10 @@
+@startuml Estudiante
+class "Estudiante<K, V>" {
+    - matricula: K
+    - nombre: V
+    + Estudiante(matricula: K, nombre: V)
+    + getMatricula(): K
+    + getNombre(): V
+    + mostrarInformacion(): void
+}
+@enduml
